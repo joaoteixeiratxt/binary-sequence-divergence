@@ -1,0 +1,22 @@
+{
+  "name": "binary-sequence-divergence",
+  "version": "1.0.0",
+  "description": "A quantitative analysis tool that identifies percentage deviations in binary sequences using sliding windows, aiming to study patterns and trends in simple data like 0s and 1s.",
+  "keywords": [
+    "stochastic"
+  ],
+  "homepage": "https://github.com/joaoteixeiratxt/binary-sequence-divergence#readme",
+  "bugs": {
+    "url": "https://github.com/joaoteixeiratxt/binary-sequence-divergence/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaoteixeiratxt/binary-sequence-divergence.git"
+  },
+  "license": "MIT",
+  "author": "João Victor Teixeira",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

@@ -2,6 +2,7 @@
   "name": "binary-sequence-divergence",
   "version": "1.0.0",
   "description": "A quantitative analysis tool that identifies percentage deviations in binary sequences using sliding windows, aiming to study patterns and trends in simple data like 0s and 1s.",
+  "type": "module",
   "keywords": [
     "stochastic"
   ],
@@ -17,6 +18,12 @@
   "author": "João Victor Teixeira",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "7.27.2",
+    "babel-jest": "30.0.2",
+    "jest": "30.0.2"
   }
 }

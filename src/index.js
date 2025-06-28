@@ -1,3 +1,2 @@
-console.log(
-  "Hello world! This is the initial commit of the project, looking forward to the next steps..."
-);
+export * from "./analyzeBinarySequence.js";
+export * from "./generateRandomBinarySequence.js";
